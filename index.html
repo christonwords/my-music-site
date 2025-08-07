@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Music - Stream Site</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 My Music</h1>
+
+    <div id="player">
+      <img id="cover" src="" alt="Cover" />
+      <h2 id="track-title">Title</h2>
+      <audio id="audio" controls></audio>
+
+      <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭️</button>
+        <button id="shuffle">🔀</button>
+        <button id="loop">🔁</button>
+      </div>
+
+      <p id="play-count">🔊 1,000,000,000 meme plays</p>
+    </div>
+
+    <div id="track-list"></div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/player.js"></script>
+</body>
+</html>
